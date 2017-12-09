@@ -76,7 +76,6 @@ function showList() {
   for(let i = 0; i < allProducts.length; i++) {
     const liEl = document.createElement('li');
     liEl.textContent = (`${allProducts[i].name}has${allProducts[i].votes}votes in${allProducts[i].views}views`);
-    //liEl.textContent = ('$(allProducts[i].name) has $(allProducts[i].votes) votes in $(allProducts[i].views) views');
 
     list.appendChild(liEl);
   }
